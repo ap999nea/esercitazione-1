@@ -1,0 +1,131 @@
+/**** GENERAL ****/
+body {
+  font-family: "Sora", sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+p {
+  color: rgb(124, 197, 124);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  color: rgb(124, 197, 124);
+}
+
+h5 {
+  color: white;
+}
+
+/**** HEADER ****/
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(39, 35, 35, 0.493);
+}
+
+nav p {
+  color: white;
+}
+
+.btn {
+  background-color: rgb(124, 197, 124);
+  border-radius: 5px;
+}
+
+/**** MAIN ****/
+
+.first-page {
+  background-color: rgb(39, 35, 35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 400px;
+  padding-top: 150px;
+}
+
+form {
+  background-color: rgb(36, 36, 48);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+form h4 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.second-page {
+  background-color: rgb(75, 75, 112);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.second-page h3 {
+  color: white;
+}
+
+.boxes {
+  display: flex;
+}
+
+.box {
+  background-color: black;
+  width: 100px;
+  margin-right: 20px;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.box:hover {
+  box-shadow: 0px 0px 21px 10px rgba(255, 110, 186, 0.93);
+}
+
+/**** SECOND PAGE ****/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 5px;
+  padding-top: 150px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+/**** FOOTER ****/
+.sticky {
+  position: sticky;
+  text-align: center;
+  bottom: 0px;
+  background-color: rgb(124, 197, 124);
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
